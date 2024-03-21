@@ -143,8 +143,8 @@ type: hacks
     </div>
 
     <div class="images">
-        <iframe src="https://drive.google.com/file/d/1nU2z_ioqbc5Gd-Yyc_XXnOxf4CIxZpdb/preview" width="640" height="480" allow="autoplay"></iframe>
-        <iframe src="https://drive.google.com/file/d/116ADJ2amQTmEHck_njXpqbDHNMChs8rQ/preview" width="640" height="480" allow="autoplay"></iframe>
+        <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcarnegiesciencecenter.org%2Fexhibits%2Fthe-titanic%2F&psig=AOvVaw3obfnnw_4Vh0iwfIYIhPST&ust=1711140710351000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjB0oWehoUDFQAAAAAdAAAAABAD" width="640" height="480" allow="autoplay"></iframe>
+        <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dtitanic%2Bship&psig=AOvVaw3obfnnw_4Vh0iwfIYIhPST&ust=1711140710351000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjB0oWehoUDFQAAAAAdAAAAABAO" width="640" height="480" allow="autoplay"></iframe>
     </div>
 
     <script>
