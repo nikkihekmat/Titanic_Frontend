@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Titanic ML
+title: Titanic Survival Prediction
 courses: { compsci: {week: 26} }
 type: hacks
 ---
