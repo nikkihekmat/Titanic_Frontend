@@ -142,9 +142,6 @@ type: hacks
         <div id="predictionResult"></div>
     </div>
 
-  
-     ![alt text](<../images/Screenshot 2024-03-21 at 1.56.52 PM.png>)
-
 
     <script>
         document.getElementById('predictionForm').onsubmit = async function(e) {
@@ -177,3 +174,5 @@ type: hacks
     </script>
 </body>
 </html>
+
+ ![](<../images/Screenshot 2024-03-21 at 1.56.52 PM.png>)
