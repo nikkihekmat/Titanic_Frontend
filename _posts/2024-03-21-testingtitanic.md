@@ -143,9 +143,9 @@ type: hacks
     </div>
 
     <div class="images">
-        <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcarnegiesciencecenter.org%2Fexhibits%2Fthe-titanic%2F&psig=AOvVaw3obfnnw_4Vh0iwfIYIhPST&ust=1711140710351000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjB0oWehoUDFQAAAAAdAAAAABAD" width="640" height="480" allow="autoplay"></iframe>
-        <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dtitanic%2Bship&psig=AOvVaw3obfnnw_4Vh0iwfIYIhPST&ust=1711140710351000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjB0oWehoUDFQAAAAAdAAAAABAO" width="640" height="480" allow="autoplay"></iframe>
+     ![alt text](<../images/Screenshot 2024-03-21 at 1.56.52 PM.png>)
     </div>
+
 
     <script>
         document.getElementById('predictionForm').onsubmit = async function(e) {
