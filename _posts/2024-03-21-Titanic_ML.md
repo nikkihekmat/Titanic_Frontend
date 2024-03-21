@@ -7,16 +7,16 @@ courses: { compsci: {week: 26} }
 type: hacks
 ---
 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titanic Survival Prediction</title>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
     body {
         font-family: 'Arial', sans-serif;
-        background-color: #F5F5DC; /* Beige background */
+        background-color: #ADD8E6; /* Light blue background */
         margin: 0;
         padding: 0;
         display: flex;
@@ -25,7 +25,7 @@ type: hacks
         height: 100vh;
     }
     .container {
-        background-color: #293445;
+        background-color: #ADD8E6; /* Light blue container */
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,9 @@ type: hacks
     }
     h2 {
         text-align: center;
-        color: #050805;
+        color: #0E1621; /* Dark blue text */
+        margin-bottom: 20px; /* Add some spacing */
+        font-family: 'Lobster', cursive; /* Fun font for title */
     }
     form {
         display: flex;
@@ -41,35 +43,36 @@ type: hacks
     }
     label {
         margin-top: 10px;
+        color: #0E1621; /* Dark blue text */
+        font-family: 'Comic Sans MS', cursive; /* Fun font for subtitle */
     }
     input, select, button {
         padding: 10px;
         margin-top: 5px;
-        border: 1px solid #ddd;
+        border: 2px solid #0E1621; /* Thicker dark blue border */
         border-radius: 4px;
-        /* Ensure text color is black for better contrast */
-        color: #050805;
+        color: #0E1621; /* Dark blue text */
     }
     input::placeholder {
-        /* Change placeholder text to black */
-        color: #050805; 
+        color: #0E1621; /* Dark blue placeholder */
         opacity: 1; /* Full opacity */
     }
     button {
-        background-color: #050805;
-        color: white;
+        background-color: #0E1621; /* Dark blue button */
+        color: #F5F5DC; /* Beige text */
         margin-top: 20px;
     }
     button:hover {
-        background-color: #4cae4c;
+        background-color: #1D2A38; /* Darker blue on hover */
     }
     #predictionResult {
         margin-top: 20px;
         text-align: center;
         padding: 10px;
-        background-color: #000000;
+        background-color: #0E1621; /* Dark blue result background */
+        color: #F5F5DC; /* Beige result text */
         border-radius: 4px;
-        display: none; /* Hide initially */
+        display: none;
     }
 </style>
 
@@ -131,12 +134,11 @@ type: hacks
             });
             const result = await response.json();
             const resultDiv = document.getElementById('predictionResult');
-            resultDiv.style.display = 'block'; // Show the result
-            // Update the innerText based on your API's actual response keys
-            resultDiv.innerText = 
-                <!-- `DecisionTreeClassifier Survival Probability: ${result['DecisionTreeClassifier Survival Probability']}\n` + -->
-                `Survival Probability: ${result['LogisticRegression Survival Probability']}%`;
+            resultDiv.style.display = 'block';
+            resultDiv.innerText = `Survival Probability: ${result['LogisticRegression Survival Probability']}%`;
         };
     </script>
 </body>
 </html>
+
+
