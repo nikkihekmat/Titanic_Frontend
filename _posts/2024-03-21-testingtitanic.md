@@ -142,9 +142,8 @@ type: hacks
         <div id="predictionResult"></div>
     </div>
 
-    <div class="images">
+  
      ![alt text](<../images/Screenshot 2024-03-21 at 1.56.52 PM.png>)
-    </div>
 
 
     <script>
