@@ -8,10 +8,6 @@ type: hacks
 ---
 
 
-<<<<<<< HEAD
-<!DOCTYPE html>
-=======
->>>>>>> a687fea (reaarraneged)
 <html lang="en">
 <head>
     <meta charset="UTF-8">
