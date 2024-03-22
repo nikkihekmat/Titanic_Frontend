@@ -32,4 +32,3 @@
 </body>
 </html>
 
-Remember to replace placeholders such as model loading logic, input preprocessing, and prediction logic with your actual code. 
