@@ -125,7 +125,7 @@ type: hacks
                 alone: document.getElementById('alone').checked ? 1 : 0,
                 embarked: document.getElementById('embarked').value
             };
-            const response = await fetch('ttp://127.0.0.1:8086/api/titanic/predict', {
+            const response = await fetch('http://127.0.0.1:8086/api/titanic/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
